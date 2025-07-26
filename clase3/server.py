@@ -17,3 +17,6 @@ def add(a: int, b: int) -> int:
 def get_greeting(name: str) -> str:
     """Get a personalized greeting"""
     return f"Hello, {name}!"
+
+# mcp dev .\server.py
+# npx @modelcontextprotocol/inspector mcp run .\server.py
